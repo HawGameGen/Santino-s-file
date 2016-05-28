@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="9209396768869322">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="1594255495350598" type="player">
+                    <param id="0" name="Object">lava</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="80258369861112" type="player" />
+            </actions>
+        </event-block>
+        <event-block sid="7158072697702776">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="2164161387877824" type="player" />
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="2038675084421854" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="1924065631069454">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6499170323601141" type="player">
+                    <param id="0" name="Object">badGuy</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="6800435396542373" type="player" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
