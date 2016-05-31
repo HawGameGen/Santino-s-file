@@ -13,7 +13,9 @@
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
     </used-plugins>
     <used-behaviors>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
         <behavior author="Scirra" id="destroy" version="1">Destroy outside layout</behavior>
         <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
@@ -57,6 +59,9 @@
                 <behavior-type name="DestroyOutsideLayout" sid="6968989728903737">
                     <behavior id="destroy" />
                 </behavior-type>
+                <behavior-type name="Physics" sid="6459315511869908">
+                    <behavior id="Physics" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6416171893950368" speed="5">
@@ -82,6 +87,9 @@
                 <behavior-type name="Solid" sid="9477214882554856">
                     <behavior id="solid" />
                 </behavior-type>
+                <behavior-type name="Physics" sid="951074813620968">
+                    <behavior id="Physics" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7680540156868831" speed="5">
@@ -104,6 +112,11 @@
         </object-type>
         <object-type name="lava" sid="9629993112570502">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1642038987541602">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="964724550945746" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
@@ -112,8 +125,60 @@
         </object-type>
         <object-type name="badGuy" sid="4157451182564053">
             <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="8897807567281064">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9095804374099373" speed="5">
+                    <frame duration="1" hotspotX="0.978723" hotspotY="0.5" original-source="C:\Users\GameGenUser\Downloads\ceeper.png">
+                        <collision-poly>
+                            <point x="0.0212766" y="0.0108696" />
+                            <point x="0.765957" y="0.608696" />
+                            <point x="0.765957" y="0.5" />
+                            <point x="0.87234" y="0.445652" />
+                            <point x="0.12766" y="0.934783" />
+                            <point x="0.234043" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="moveable_block" sid="9978419218058003">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Physics" sid="8105239875689599">
+                    <behavior id="Physics" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="5183002633978809">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine" sid="2539186259998851">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1316682164217332" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SineBlock" sid="4880162139872042">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="1922607582200545">
+                    <behavior id="Sin" />
+                </behavior-type>
+                <behavior-type name="Solid" sid="8443605001272999">
+                    <behavior id="solid" />
+                </behavior-type>
+                <behavior-type name="Sine2" sid="9382905631661309">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798572494081808" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
