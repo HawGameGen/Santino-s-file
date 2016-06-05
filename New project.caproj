@@ -65,17 +65,17 @@
             </behaviors>
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6416171893950368" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\Student\Documents\santino\Toy Bonnie.png">
+                    <frame duration="1" hotspotX="0.686567" hotspotY="0.771739" original-source="C:\Users\GameGenUser\Downloads\New Piskel (6).png">
                         <collision-poly>
-                            <point x="0.346875" y="0" />
-                            <point x="0.478125" y="0" />
-                            <point x="0.625" y="0" />
-                            <point x="0.85" y="0.59375" />
-                            <point x="0.720313" y="0.6" />
-                            <point x="0.725" y="0.9375" />
-                            <point x="0.275" y="0.939063" />
-                            <point x="0.245313" y="0.625001" />
-                            <point x="0.126562" y="0.621875" />
+                            <point x="0.320896" y="0" />
+                            <point x="0.634328" y="0" />
+                            <point x="0.985075" y="0" />
+                            <point x="1" y="0.934783" />
+                            <point x="1" y="0.945652" />
+                            <point x="1" y="1" />
+                            <point x="0.149254" y="1" />
+                            <point x="0.0783594" y="0.989132" />
+                            <point x="0" y="0.983696" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -180,6 +180,23 @@
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="798572494081808" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="sine" sid="3849952653421054">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6364052716464778" speed="5">
+                    <frame duration="1" hotspotX="0.51875" hotspotY="0.60625" original-source="C:\Users\GameGenUser\Downloads\New Piskel (9).png">
+                        <collision-poly>
+                            <point x="0" y="0.16199" />
+                            <point x="1" y="0.16199" />
+                            <point x="1" y="0.608418" />
+                            <point x="1" y="0.927296" />
+                            <point x="0" y="1" />
+                            <point x="0.054997" y="0.608418" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>

@@ -35,5 +35,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/badGuy/" />
         <folder expanded="1" path="animation-folder/moveable_block/" />
         <folder expanded="1" path="animation-folder/SineBlock/" />
+        <folder expanded="1" path="animation-folder/sine/" />
     </folders-expanded>
 </c2uistate>
